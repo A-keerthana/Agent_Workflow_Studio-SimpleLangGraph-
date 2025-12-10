@@ -21,27 +21,29 @@ This project demonstrates:
 
 ---
 
-## 🏗️ Project Structure
 
+## 📁 Project Structure
+
+```
 ai_workflow_engine/
 │
 ├── app/
-│   ├── main.py              → FastAPI app, routes, APIs, async runners, WebSockets, custom docs
-│   ├── engine.py            → Workflow graph engine (nodes, edges, execution)
+│   ├── main.py                 # FastAPI app, routes, APIs, async runners, WebSockets, custom docs
+│   ├── engine.py               # Workflow graph engine (nodes, edges, execution)
 │   ├── workflows/
 │   │   ├── __init__.py
-│   │   └── code_review.py   → Implementation of Code Review Mini-Agent workflow
+│   │   └── code_review.py         # Implementation of Code Review Mini-Agent workflow
 │   ├── static/
-│   │   ├── swagger_dark.css → Dark theme styling
-│   │   ├── swagger_overrides.css → Hide /openapi.json, refine UI
-│   │   └── logo.png
+│   │   ├── swagger_dark.css       # Dark theme styling
+│   │   ├── swagger_overrides.css  # To remove /openapi.json, UI refinements
+│   │   └── logo.png               # Custom branding logo
 │   └── ...
 │
-├── test_websocket_logs.py   → Script for testing WebSocket log streaming
-├── venv/                    → Python virtual environment
+├── test_websocket_logs.py   # Script for testing WebSocket log streaming
+├── venv/                    # Python virtual environment
 ├── requirements.txt
 └── README.md
-
+```
 
 
 ---
