@@ -1,0 +1,32 @@
+/* app/static/swagger_overrides.css */
+
+/* Hide the ugly "/openapi.json" row */
+.swagger-ui .download-url-wrapper {
+    display: none !important;
+}
+
+/* Make sure buttons + cards look OK on dark background */
+.swagger-ui .opblock {
+    background-color: #111827 !important;   /* dark gray */
+    border-color: #1f2933 !important;
+}
+
+.swagger-ui .opblock-summary-method {
+    color: #f9fafb !important;
+}
+
+.swagger-ui .opblock-tag {
+    color: #f9fafb !important;
+}
+
+/* Keep the Schemas / Models section visible and readable */
+.swagger-ui section.models {
+    background-color: #020617 !important;
+    border-top: 1px solid #b2b7c0 !important;
+}
+
+/* Hide the visible /openapi.json link under the title */
+.swagger-ui .information-container .download-url-wrapper,
+.swagger-ui .information-container .download-url-wrapper .url {
+    display: none !important;
+}

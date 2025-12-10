@@ -1,0 +1,89 @@
+/* app/static/swagger-dark.css */
+
+/* Global background + text */
+html, body {
+    background-color: #020617 !important;  /* very dark navy */
+    color: #e5e7eb !important;             /* light gray text */
+}
+
+/* Main Swagger container */
+.swagger-ui {
+    background-color: #020617 !important;
+    color: #e5e7eb !important;
+}
+
+/* Page wrapper */
+.swagger-ui .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Top bar */
+.swagger-ui .topbar {
+    background: #020617 !important;
+    border-bottom: 1px solid #1f2937;
+}
+
+.swagger-ui .topbar a,
+.swagger-ui .topbar .link span,
+.swagger-ui .topbar .download-url-wrapper,
+.swagger-ui .topbar .download-url-wrapper .download-url-button {
+    color: #e5e7eb !important;
+}
+
+/* HIDE the visible /openapi.json line */
+.swagger-ui .download-url-wrapper {
+    display: none !important;
+}
+
+/* Section headers */
+.swagger-ui .opblock-tag {
+    background: #020617 !important;
+    color: #e5e7eb !important;
+}
+
+/* Endpoint cards */
+.swagger-ui .opblock {
+    background: #020617 !important;
+    border-color: #1f2937 !important;
+}
+
+/* Request / Response panels */
+.swagger-ui .opblock .opblock-section-header {
+    background: #020617 !important;
+    border-color: #1f2937 !important;
+}
+
+/* Buttons */
+.swagger-ui .btn {
+    background: #111827 !important;
+    border-color: #4b5563 !important;
+    color: #e5e7eb !important;
+}
+
+.swagger-ui .btn:hover {
+    background: #1f2937 !important;
+}
+
+/* Try it out / execute buttons */
+.swagger-ui .opblock-control-arrow,
+.swagger-ui .opblock-summary-method,
+.swagger-ui .opblock-summary-path,
+.swagger-ui .opblock-summary-description {
+    color: #e5e7eb !important;
+}
+
+/* Schemas section */
+.swagger-ui .model-box {
+    background: #020617 !important;
+    border-color: #1f2937 !important;
+}
+
+/* Text inputs */
+.swagger-ui input,
+.swagger-ui textarea,
+.swagger-ui select {
+    background: #020617 !important;
+    border-color: #4b5563 !important;
+    color: #e5e7eb !important;
+}
