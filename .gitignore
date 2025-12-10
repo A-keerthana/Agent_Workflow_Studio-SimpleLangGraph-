@@ -3,19 +3,24 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+*.log
 
-# Virtual environments
-.venv/
-env/
+# Virtual environment
 venv/
+.venv/
 
 # VS Code
 .vscode/
 *.code-workspace
 
-# OS junk
+# OS
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
+# PyCharm
+.idea/
+
+# Byte-compiled files
+*.egg-info/
+build/
+dist/
